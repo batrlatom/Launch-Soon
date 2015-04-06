@@ -1,7 +1,7 @@
 <div class="container">
 <div class="row">
-  <div class="col-md-6 col-md-offset-3">
-    <div class="radius panel" style="margin-top:50px;">
+  <div class="col-md-6">
+    <div class="radius panel" style="margin-top:50%;">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 

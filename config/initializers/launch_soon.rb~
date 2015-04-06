@@ -1,11 +1,11 @@
 # Mailchimp API Key
-MAILCHIMP_API_KEY = 'API_KEY'
+MAILCHIMP_API_KEY = 'cb22e91836b8f1ba8ed61122d52de893-us9'
 
 # Mailchimp Mailing List ID
-MAILCHIMP_LIST_ID = 'LIST_ID'
+MAILCHIMP_LIST_ID = 'e57b2b3d03'
 
 # This site's domain name, including the www. if required (ie: google.com):
-SITE_DOMAIN = 'DOMAIN.TLD'
+SITE_DOMAIN = 'www.zuky.cz'
 
 # Title tag for the site:
 SITE_TITLE = 'Title'
@@ -17,7 +17,7 @@ SITE_KEYWORDS = 'key, words'
 SITE_DESCRIPTION = 'DESCRIPTION'
 
 # Blurb about site, displayed on main page:
-SITE_BLURB = 'BLURB'
+SITE_BLURB = 'Easy'
 
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-#######-##'

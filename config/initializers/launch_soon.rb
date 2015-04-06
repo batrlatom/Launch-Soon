@@ -14,10 +14,10 @@ SITE_TITLE = 'Title'
 SITE_KEYWORDS = 'key, words'
 
 # Description for the site, also used in Tweet so keep it short:
-SITE_DESCRIPTION = 'DESCRIPTION'
+SITE_DESCRIPTION = 'Osobni SMS asistent'
 
 # Blurb about site, displayed on main page:
-SITE_BLURB = 'BLURB'
+SITE_BLURB = 'Easy'
 
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-#######-##'

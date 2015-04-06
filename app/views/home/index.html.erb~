@@ -1,6 +1,6 @@
 <div class="container">
 <div class="row">
-  <div class="large-7 small-12 columns large-centered">
+  <div class="col-9-sm">
     <div class="radius panel" style="margin-top:50px;">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>

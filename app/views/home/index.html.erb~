@@ -1,7 +1,21 @@
+ <style type="text/css">
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+/*background: url(polina.jpg) no-repeat;*/
+background-size: cover;
+}
+
+ </style>
+
+
+
 <div class="container">
 <div class="row">
   <div class="col-md-6">
-    <div class="radius panel" style="margin-top:50%;">
+    <div class="radius panel" style="margin-top:40%;">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 

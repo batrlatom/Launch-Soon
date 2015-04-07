@@ -1,12 +1,12 @@
 
-<!--
+
  <style type="text/css">
 
 video#bgvid {
 position: fixed; right: 0; bottom: 0;
 min-width: 100%; min-height: 100%;
 width: auto; height: auto; z-index: -100;
-/*background: url(polina.jpg) no-repeat;*/
+background: url(/assets/background.jpg) no-repeat;
 background-size: cover;
 }
 
@@ -16,7 +16,7 @@ background-size: cover;
 <source src="https://dl.dropboxusercontent.com/u/829712/bckg.mp4" type="video/mp4">
 </video>
 
--->
+
 
 <header class="header">
 <div class="overlay large-4 small-4 columns col-md-offset-1 top150px">
@@ -51,19 +51,9 @@ background-size: cover;
 	</div>
 
 <div class="row">
-        <div class="col-lg-4">
-          <h3>Objednat jídlo</h2>
-          <p><img src="http://fc05.deviantart.net/fs71/f/2013/066/b/b/bunny_love__andrews_iphone_chat_messages_no2_by_strawberrybunny4341-d5xbdjp.png"></img></p>
-        </div>
-        <div class="col-lg-4">
-          <h3>Rezervovat stůl</h2>
-          <p><img src="http://fc05.deviantart.net/fs71/f/2013/066/b/b/bunny_love__andrews_iphone_chat_messages_no2_by_strawberrybunny4341-d5xbdjp.png"></img></p>
-        </div>
-        <div class="col-lg-4">
-          <h3>Zavolat taxi</h2>
-          <p><img src="http://fc05.deviantart.net/fs71/f/2013/066/b/b/bunny_love__andrews_iphone_chat_messages_no2_by_strawberrybunny4341-d5xbdjp.png"></img></p>
-        </div>
-
+       
+          <p><img src="/assets/messages.jpg"></img></p>
+      
 
       </div>
 

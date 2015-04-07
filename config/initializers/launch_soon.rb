@@ -8,7 +8,7 @@ MAILCHIMP_LIST_ID = 'e57b2b3d03'
 SITE_DOMAIN = 'www.zuky.cz'
 
 # Title tag for the site:
-SITE_TITLE = 'EASY'
+SITE_TITLE = 'PREJUSI'
 
 # Keywords for the site:
 SITE_KEYWORDS = 'key, words'
@@ -17,7 +17,7 @@ SITE_KEYWORDS = 'key, words'
 SITE_DESCRIPTION = 'Osobni SMS asistent'
 
 # Blurb about site, displayed on main page:
-SITE_BLURB = 'Zjednodusime Vas zivot, zaridime za vas cokoliv'
+SITE_BLURB = 'Napište nám Vaše přání. Vyplníme jej na počkání'
 
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-#######-##'

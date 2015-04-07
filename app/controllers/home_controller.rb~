@@ -23,12 +23,16 @@ class HomeController < ApplicationController
       return render :index
     end
 
+logger.info("mailchimp connected")
+
     begin
       user_info = mailchimp.lists.member_info(MAILCHIMP_LIST_ID, ['email' => "#{email}"])
     rescue => e
       flash.now[:alert] = 'There was a problem getting info on this email address from MailChimp'
       return render :index
     end
+
+logger.info("mail info success")
 
     if user_info['errors'].any?
       user_info['errors'].each do |error|
@@ -37,8 +41,12 @@ class HomeController < ApplicationController
             begin
               list_members     = mailchimp.lists.members("#{MAILCHIMP_LIST_ID}")
               referring_member = list_members['data'].detect { |member| member['merges']['RCODE'] == "#{@ref}" }
+logger.info("memberfound")
               new_count        = referring_member['merges']['RCOUNT'] + 1
+
+logger.info("membercount")
               mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => '1')
+logger.info("member updated")
             rescue => e
               flash.now[:alert] = 'There was a problem updating the referral at MailChimp'
               return render :index
@@ -53,11 +61,13 @@ class HomeController < ApplicationController
             flash.now[:alert] = 'There was a problem subscribing you to the list on MailChimp'
             return render :index
           end
+logger.info("mail added")
         end
       end
     else # The user is in the list
       @rcount = user_info['data'][0]['merges']['RCOUNT']
       @rcode  = user_info['data'][0]['merges']['RCODE']
+logger.info("user found")
       return render :stats
     end
   end

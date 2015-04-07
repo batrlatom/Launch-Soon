@@ -41,8 +41,12 @@ logger.info("mail info success")
             begin
               list_members     = mailchimp.lists.members("#{MAILCHIMP_LIST_ID}")
               referring_member = list_members['data'].detect { |member| member['merges']['RCODE'] == "#{@ref}" }
+logger.info("memberfound")
               new_count        = referring_member['merges']['RCOUNT'] + 1
+
+logger.info("membercount")
               mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => '1')
+logger.info("member updated")
             rescue => e
               flash.now[:alert] = 'There was a problem updating the referral at MailChimp'
               return render :index

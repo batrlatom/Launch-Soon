@@ -22,7 +22,7 @@ background-size: cover;
 <div class="container">
 <div class="row">
   <div class="large-8 small-12 columns large-centered">
-    <div class="radius panel top20">
+    <div class="radius panel top50px">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 
@@ -47,6 +47,7 @@ background-size: cover;
 
 	<div class="col-md-6 large-centered">
 <h2>Jak to funguje?</h2>
+<p>Napište náms své přání a my vám jej splníme. Umíme zařídit cokoliv a bla blabla lorem ipsum development<p/>
 </div>
 </div>
 

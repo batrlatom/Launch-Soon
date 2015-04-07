@@ -1365,6 +1365,6 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
 
 .jumbotron{
 /*background-color: #FFFFFF;*/
-background-color:white;
+background-color: #FFFFFF;
 }
 

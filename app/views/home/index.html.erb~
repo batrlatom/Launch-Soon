@@ -19,8 +19,8 @@ background-size: cover;
 -->
 
 <header class="header">
-<div class="large-8 small-12 columns large-centered">
-    <div class="radius panel top20">
+<div class="overlay large-8 small-12 columns large-centered">
+    <div class="radius panel">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 
@@ -42,15 +42,12 @@ background-size: cover;
 </header>
 
 <div class="container">
-<div class="row background">
-  
-</div>
 
 <div class="row">
 
-	<div class="large-8 small-12 columns large-centered top200px">
+	<div class="jumbotron">
 <h2>Jak to funguje?</h2>
-<p>Napište náms své přání a my vám jej splníme. Umíme zařídit cokoliv a bla blabla lorem ipsum development<p/>
+<p class="lead">Napište náms své přání a my vám jej splníme. Umíme zařídit cokoliv a bla blabla lorem ipsum development<p/>
 </div>
 </div>
 

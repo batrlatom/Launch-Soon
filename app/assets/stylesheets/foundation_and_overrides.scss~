@@ -1325,5 +1325,7 @@ $sub-nav-active-cursor: default;
 body,html{height:100%;}
 // Set the background image, and make sure it covers the entire page
 body{background: url(/assets/background.jpg) center center fixed no-repeat;-moz-background-size: cover;background-size: cover;}
+
+
 // Make the Panel opaque
 div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}

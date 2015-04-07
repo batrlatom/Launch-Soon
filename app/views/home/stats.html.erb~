@@ -2,7 +2,7 @@
 <div class="row">
   <div class="large-8 small-12 columns large-centered  top150px">
     <div class="panel radius">
-      <h1 style="text-align:center;">Děkujeme za Váš zájem</h1>
+      <h1 style="text-align:center;">Děkujeme za Váš zájem o <%= SITE_TITLE %></h1>
       <h4 class="subheader" >Zapsali jsme Vás na čekací listinu</h4>
 
       <div class="row">

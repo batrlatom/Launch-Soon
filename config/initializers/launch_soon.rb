@@ -23,4 +23,4 @@ SITE_BLURB = 'Zjednodusime Vas zivot, zaridime za vas cokoliv'
 SITE_GOOGLE_ANALYTICS = 'UA-#######-##'
 
 # Twitter name for site:
-TWITTER_NAME = 'TWITTERUSERNAME'
+TWITTER_NAME = 'FACEBOOK'

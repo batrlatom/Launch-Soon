@@ -49,7 +49,8 @@ logger.info("membercount")
 logger.info("member updated")
             rescue => e
               flash.now[:alert] = 'There was a problem updating the referral at MailChimp'
-              return render :index
+logger.info("membercount error")
+              return render :stats
             end
           end
 

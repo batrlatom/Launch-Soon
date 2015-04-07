@@ -1,3 +1,5 @@
+
+<!--
  <style type="text/css">
 
 video#bgvid {
@@ -13,6 +15,8 @@ background-size: cover;
   <video autoplay loop poster="polina.jpg" id="bgvid">
 <source src="https://dl.dropboxusercontent.com/u/829712/bckg.mp4" type="video/mp4">
 </video>
+
+-->
 
 
 <div class="container">

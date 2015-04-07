@@ -1,24 +1,13 @@
 
 
- <style type="text/css">
-
-video#bgvid {
-position: fixed; right: 0; bottom: 0;
-min-width: 100%; min-height: 100%;
-width: auto; height: auto; z-index: -100;
-/*background: url(/assets/background.jpg) no-repeat;*/
-background-size: cover;
-}
-
- </style>
-
-  <video autoplay loop poster="/assets/background.jpg" id="bgvid">
-<source src="https://dl.dropboxusercontent.com/u/829712/5322503.mp4" type="video/mp4">
-</video>
+ 
 
 
 
 <header class="header">
+ <video autoplay loop poster="/assets/background.jpg" id="bgvid">
+<source src="https://dl.dropboxusercontent.com/u/829712/5322503.mp4" type="video/mp4">
+</video>
 <div class="overlay large-4 small-4 columns col-md-offset-1 top150px">
     <div class="radius panel">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>

@@ -22,7 +22,7 @@ background-size: cover;
 <div class="container">
 <div class="row">
   <div class="large-8 small-12 columns large-centered">
-    <div class="radius panel top-30">
+    <div class="radius panel top20">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 
@@ -45,10 +45,8 @@ background-size: cover;
 
 <div class="row">
 
-	<div class="col-md-6">
-dfsdfsd
-fsdfsdfsd
-	</div>
+	<div class="col-md-6 large-centered">
+<h2>Jak to funguje?</h2>
 </div>
 </div>
 

@@ -1,13 +1,13 @@
 <div class="row">
   <div class="large-8 small-12 columns large-centered">
-    <div class="panel radius" style="margin-top:50px;">
+    <div class="panel radius top-30">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 
       <div class="row">
         <div class="small-12 columns">
           <h6>
-            Čím více přátel pozvete, tím rychleji získáte přístup k osobnímu asistentovi!<br>Pošlete tento odkaz svým přátelům a nebo nás sdílejte na Facebooku.
+            Čím více přátel pozvete, tím rychleji získáte přístup k osobnímu asistentovi!<br>Pošlete tento odkaz svým přátelům a nebo použijte tlačítka pro sdílení.
           </h6>
 
           <p><input type="text" readonly onClick="select()" value="http://<%= SITE_DOMAIN %>/?ref=<%= @referral_code %>"></p>

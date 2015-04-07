@@ -21,8 +21,8 @@ background-size: cover;
 
 <div class="container">
 <div class="row">
-  <div class="col-md-6">
-    <div class="radius panel" style="margin-top:40%;">
+  <div class="large-8 small-12 columns large-centered">
+    <div class="radius panel top-30">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 

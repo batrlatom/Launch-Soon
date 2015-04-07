@@ -1324,8 +1324,18 @@ $sub-nav-active-cursor: default;
 // Make sure the page stretches to fit the entire screen, vertically
 body,html{height:100%;}
 // Set the background image, and make sure it covers the entire page
-body{background: url(/assets/background.jpg) center center fixed no-repeat;-moz-background-size: cover;background-size: cover;}
+body{background: url(/assets/background.jpg) center center no-repeat;-moz-background-size: cover;background-size: cover;}
 
 
 // Make the Panel opaque
 div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
+
+
+.top5 { margin-top:5px; }
+.top7 { margin-top:7px; }
+.top10 { margin-top:10px; }
+.top15 { margin-top:15px; }
+.top17 { margin-top:17px; }
+.top30 { margin-top:30px; }
+.top50 { margin-top:50px; }
+

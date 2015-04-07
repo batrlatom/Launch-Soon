@@ -1327,7 +1327,7 @@ body,html{height:100%;}
 //body{background: url(/assets/background.jpg) center center no-repeat;-moz-background-size: cover;background-size: cover;}
 
 
-
+h2 { font-size: 4em;}
 
 // Make the Panel opaque
 div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}

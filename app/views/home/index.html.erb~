@@ -20,7 +20,7 @@ background-size: cover;
 
 
 <div class="container">
-<div class="row">
+<div class="row background">
   <div class="large-8 small-12 columns large-centered">
     <div class="radius panel top20">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>

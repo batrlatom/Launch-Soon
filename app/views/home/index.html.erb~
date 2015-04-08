@@ -1,7 +1,29 @@
 
 
+ <!--<style type="text/css">
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+/*background: url(/assets/background.jpg) no-repeat;*/
+background-size: cover;
+}
+
+ </style>
+
+ 
+
+
+
+
+<video autoplay loop poster="/assets/background.jpg" id="bgvid">
+<source src="https://dl.dropboxusercontent.com/u/829712/5322503.mp4" type="video/mp4">
+</video>
+-->
+
+
 <header class="header eighty">
-<style type="text/css">
 
 
 <div class="overlay large-4 medium-8 small-12 columns col-md-offset-1 top150px text-center">
@@ -26,8 +48,6 @@
   </div>
 </header>
 
-
-
 <div class="container">
 
 	<div class="row">
@@ -48,7 +68,7 @@
 <h2>Začněte ještě dnes</h2>
  <div class="row text-center">
 
-<p class="lead">Nemůžete se dočkat? Zaregistrujte se na čekací listinu a my se Vám velmi brzy ozveme. Každý den přidáváme nové zákazníky, kteří obdrží svého asistenta.<p/>
+<p class="lead">Napište nám své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
         <%= form_tag '/interested' do %>
           <div class=""><%= email_field_tag 'email', nil, placeholder: 'Váš e-mail' %></div>
           <div class="col-md-12"><%= submit_tag 'Přihlásit na čekací listinu', class: 'postfix radius button' %></div>

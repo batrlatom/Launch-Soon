@@ -1326,7 +1326,7 @@ body,html{height:100%;}
 // Set the background image, and make sure it covers the entire page
 //body{background: url(/assets/background.jpg) center center no-repeat;-moz-background-size: cover;background-size: cover;}
 
-h1 { margin: 20px 0 20px 0;}
+h1 { padding: 20px 0 20px 0;}
 h2 { font-size: 4em;}
 
 // Make the Panel opaque
@@ -1360,7 +1360,7 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
   background-image: url(/assets/background-girl2.jpg);
   background-size: cover;
   background-position: 50% top;
-  height: 100%;
+  height: 75%;
 }
 
 .jumbotron{

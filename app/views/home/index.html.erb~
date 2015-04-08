@@ -62,7 +62,7 @@ background-size: cover;
 
       </div>
 <div class="row text-center top50px">
-<div class="large-8 columns">
+<div class="large-8 columns col-lg-offset-2">
 <h2>Začněte ještě dnes</h2>
  <div class="row text-center">
 

@@ -31,11 +31,12 @@ background-size: cover;
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 
-      <p style="text-align:center;"><em>Chci se dostat na čekací listinu</em></p>
+      <p style="text-align:center;"><em>Přihlaste se na čekací listinu a získejte exkluzivní přístup k vašemu vlastnímu osobnímu asistentovi</em></p>
+      <p style="text-align:center;"><em>Chci se dostat na čekací listinu!</em></p>
 
       <div class="row">
         <%= form_tag '/interested' do %>
-          <div class=""><%= email_field_tag 'email', nil, placeholder: 'Váš e-mail' %></div>
+          <div class=""><%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail' %></div>
           <div class="col-md-12"><%= submit_tag 'Přihlásit na čekací listinu', class: 'postfix radius button' %></div>
           <%= hidden_field_tag :ref, "#{@ref}" %>
         <% end %>

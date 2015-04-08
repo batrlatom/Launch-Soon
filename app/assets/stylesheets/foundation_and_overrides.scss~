@@ -1372,9 +1372,13 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
 background-color: #FFFFFF;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato';
+    font-family: 'OpenSans', monospace;
 }
 p, div {
-    font-family: 'Lato';
+    font-family: 'OpenSans', monospace;
+}
+
+p .lead {
+font-size: 1.4 em;
 }
 

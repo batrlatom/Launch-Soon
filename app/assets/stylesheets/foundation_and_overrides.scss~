@@ -1357,10 +1357,10 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
   /*width: 1349px;*/
   position: relative;
   visibility: visible;
-  background-image: url(/assets/background-girl.jpg);
+  background-image: url(/assets/background-girl2.jpg);
   background-size: cover;
   background-position: 50% top;
-  height: 100%;
+  height: 70%;
 }
 
 .jumbotron{

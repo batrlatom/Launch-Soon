@@ -24,7 +24,7 @@ background-size: cover;
 
 
 <header class="header">
-<div class="overlay large-4 small-4 columns col-md-offset-1 top150px">
+<div class="overlay large-4 medium-8 small-12 columns col-md-offset-1 top150px">
     <div class="radius panel">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
@@ -51,7 +51,7 @@ background-size: cover;
 	<div class="row">
 		<div class="jumbotron top20px text-center">
 		<h2>Jak to funguje?</h2>
-		<p class="lead">Napište náms své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
+		<p class="lead">Napište nám své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
 		</div>
 	</div>
 

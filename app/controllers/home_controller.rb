@@ -45,7 +45,7 @@ logger.info("memberfound : #{email}")
               new_count        = referring_member['merges']['RCOUNT']	
 
 logger.info("membercount:  : #{new_count}")
-              mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => '1')
+              mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => '#{new_count}')
 logger.info("member updated")
             rescue => e
               flash.now[:alert] = 'There was a problem updating the referral at MailChimp'

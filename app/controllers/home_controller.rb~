@@ -47,7 +47,7 @@ add_count = new_count.to_i + 1
 	
 
 logger.info("membercount:  : #{add_count}")
-              mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => "#{new_count}")
+              mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => "#{add_count}")
 logger.info("member updated")
             rescue => e
               flash.now[:alert] = 'There was a problem updating the referral at MailChimp'

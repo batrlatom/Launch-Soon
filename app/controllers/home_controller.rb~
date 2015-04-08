@@ -57,6 +57,8 @@ logger.info("membercount error")
           end
 
           begin
+
+logger.info(refferal by #{@ref}")
             mailchimp.lists.subscribe("#{MAILCHIMP_LIST_ID}", 
                                       {'email' => "#{email}"}, 
 					

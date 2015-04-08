@@ -1371,11 +1371,15 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
 /*background-color: #FFFFFF;*/
 background-color: #FFFFFF;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'OpenSans', monospace;
+h1 {
+    font-family: 'Italianno';
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', monospace;
 }
 p, div {
-    font-family: 'OpenSans', monospace;
+    font-family: 'Open Sans', monospace;
 }
 
 p .lead {

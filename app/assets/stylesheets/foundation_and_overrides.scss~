@@ -1354,7 +1354,7 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
 
 .header {
  overflow: hidden;
-  width: 1349px;
+  /*width: 1349px;*/
   position: relative;
   visibility: visible;
   background-image: url(/assets/background-girl.jpg);

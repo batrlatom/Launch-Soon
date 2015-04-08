@@ -40,9 +40,9 @@ logger.info("mail info success")
           unless @ref.blank? # Increment RCOUNT for referrer if referral code is present
             begin
               list_members     = mailchimp.lists.members("#{MAILCHIMP_LIST_ID}")
-              referring_member = list_members['data'].detect { |member| member['merges']['RCODE'] == "#{@ref}" }
+              referring_member = list_members['data'].detect { member['merges']['RCODE'] == "#{@ref}" }
 logger.info("memberfound : #{email}")
-              new_count        = referring_member['merges']['RCOUNT']
+              new_count        = referring_member['merges']['RCOUNT'] + 1
 
 logger.info("membercount:  : #{new_count}")
               mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => '1')

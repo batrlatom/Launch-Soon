@@ -67,7 +67,7 @@ background-size: cover;
  <div class="row">
 <h2>Začněte ještě dnes</h2>
 		<div class="large-4 columns top20px text-center">
-
+<p class="lead">Napište nám své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
         <%= form_tag '/interested' do %>
           <div class=""><%= email_field_tag 'email', nil, placeholder: 'Váš e-mail' %></div>
           <div class="col-md-12"><%= submit_tag 'Přihlásit na čekací listinu', class: 'postfix radius button' %></div>

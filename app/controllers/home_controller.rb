@@ -43,9 +43,10 @@ logger.info("mail info success")
               referring_member = list_members['data'].detect { |member| member['merges']['RCODE'] == "#{@ref}" }
 logger.info("memberfound : #{email}")
               new_count        = referring_member['merges']['RCOUNT']	
-new_count = #{@new_count} + 1		
+add_count = new_count.to_i + 1
+	
 
-logger.info("membercount:  : #{new_count}")
+logger.info("membercount:  : #{add_count}")
               mailchimp.lists.update_member("#{MAILCHIMP_LIST_ID}", {'euid' => "#{referring_member['id']}"}, 'RCOUNT' => "#{new_count}")
 logger.info("member updated")
             rescue => e

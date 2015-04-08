@@ -39,7 +39,6 @@ logger.info("mail info success")
         if error['code'] == 232 # The user is not in the list
           unless @ref.blank? # Increment RCOUNT for referrer if referral code is present
             begin
-logger.info("ref" + #{@ref})
               list_members     = mailchimp.lists.members("#{MAILCHIMP_LIST_ID}")
               referring_member = list_members['data'].detect { |member| member['merges']['RCODE'] == "#{@ref}" }
 logger.info("memberfound" + referring_member)

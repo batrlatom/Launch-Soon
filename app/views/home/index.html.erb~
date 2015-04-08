@@ -61,10 +61,8 @@ background-size: cover;
       
 
       </div>
-
-</div>
-
- <div class="row text-center top50px">
+<div class="row text-center top50px">
+<div class="large-8 columns">
 <h2>Začněte ještě dnes</h2>
  <div class="row text-center">
 
@@ -77,6 +75,10 @@ background-size: cover;
 
       </div>
       </div>
+      </div>
+</div>
+
+ 
 
 <% unless alert.blank? %>
   <div class="row">

@@ -57,12 +57,10 @@ logger.info("membercount error")
           end
 
           begin
-
-logger.info(refferal by #{ref}")
             mailchimp.lists.subscribe("#{MAILCHIMP_LIST_ID}", 
                                       {'email' => "#{email}"}, 
 					
-                                      {'RCODE' => "#{@referral_code}", 'RCOUNT' => '0', 'RFRDBY' => "#{ref}" }, false, false, false)
+                                      {'RCODE' => "#{@referral_code}", 'RCOUNT' => '0'}, false, false, false)
           rescue => e
             flash.now[:alert] = 'There was a problem subscribing you to the list on MailChimp'
             return render :index

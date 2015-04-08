@@ -1372,7 +1372,7 @@ div.panel{background: rgb(255,255,255);background: rgba(255,255,255,.8);}
 background-color: #FFFFFF;
 }
 h1 {
-    font-family: 'Italianno';
+   font-family: 'Lato', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {

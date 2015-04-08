@@ -1326,7 +1326,7 @@ body,html{height:100%;}
 // Set the background image, and make sure it covers the entire page
 //body{background: url(/assets/background.jpg) center center no-repeat;-moz-background-size: cover;background-size: cover;}
 
-
+h1 { margin: 20px 0;}
 h2 { font-size: 4em;}
 
 // Make the Panel opaque

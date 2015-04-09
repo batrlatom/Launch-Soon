@@ -66,7 +66,7 @@ background-size: cover;
       </div>
 <div class="row text-center top50px">
 <div class="large-8 columns col-lg-offset-2">
-<h2>K čemu Objednejto slouží?</h2>
+<h3>K čemu Objednejto slouží?</h3>
 
  <div class="row text-center">
 
@@ -77,7 +77,7 @@ background-size: cover;
 
 <div class="row text-center top50px">
 <div class="large-8 columns col-lg-offset-2">
-<h2>K čemu Objednejto slouží?</h2>
+<h3>K čemu Objednejto slouží?</h3>
 
  <div class="row text-center">
 
@@ -87,7 +87,7 @@ background-size: cover;
       </div>
 <div class="row text-center top50px">
 <div class="large-8 columns col-lg-offset-2">
-<h2>Jak rychle objednanou službu dostanu?</h2>
+<h3>Jak rychle objednanou službu dostanu?</h3>
 
  <div class="row text-center">
 
@@ -97,7 +97,7 @@ background-size: cover;
       </div>
 <div class="row text-center top50px">
 <div class="large-8 columns col-lg-offset-2">
-<h2>Jak objednávku zaplatím?</h2>
+<h3>Jak objednávku zaplatím?</h3>
 
  <div class="row text-center">
 
@@ -108,7 +108,7 @@ background-size: cover;
 
 <div class="row text-center top50px">
 <div class="large-8 columns col-lg-offset-2">
-<h2>Kolik služba stojí?</h2>
+<h3>Kolik služba stojí?</h3>
 
  <div class="row text-center">
 

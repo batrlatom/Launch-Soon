@@ -8,13 +8,13 @@ MAILCHIMP_LIST_ID = 'e57b2b3d03'
 SITE_DOMAIN = 'www.zuky.cz'
 
 # Title tag for the site:
-SITE_TITLE = 'OBJEDNEJMI'
+SITE_TITLE = 'ChciTed'
 
 # Keywords for the site:
 SITE_KEYWORDS = 'key, words'
 
 # Description for the site, also used in Tweet so keep it short:
-SITE_DESCRIPTION = 'Osobni SMS asistent'
+SITE_DESCRIPTION = 'Váš vlastní osobní SMS asistent'
 
 # Blurb about site, displayed on main page:
 SITE_BLURB = 'Napište nám Vaše přání. Vyplníme jej na počkání'

@@ -1,138 +1,132 @@
 
 
+ <!--<style type="text/css">
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+/*background: url(/assets/background.jpg) no-repeat;*/
+background-size: cover;
+}
+
+ </style>
+
  
+
+
+
+
+<video autoplay loop poster="/assets/background.jpg" id="bgvid">
+<source src="https://dl.dropboxusercontent.com/u/829712/5322503.mp4" type="video/mp4">
+</video>
+-->
+
+   
+<header class="header eighty">
+
+
+<div class="overlay large-4 medium-8 small-12 columns col-md-offset-1 top150px text-center">
+    <div class="radius panel">
+      <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
+      <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
+
+      <p style="text-align:center;"><em>Přihlaste se na čekací listinu a získejte exkluzivní přístup k vašemu vlastnímu osobnímu asistentovi</em></p>
+      <p style="text-align:center;"><em>Chci se dostat na čekací listinu!</em></p>
+
+      <div class="row">
+        <%= form_tag '/interested' do %>
+          <div class=""><%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail' %></div>
+          <div class="col-md-12"><%= submit_tag 'Přihlásit na čekací listinu', class: 'postfix radius button' %></div>
+          <%= hidden_field_tag :ref, "#{@ref}" %>
+        <% end %>
+      </div>
+
+      <h6 class="subheader" style="text-align:center;">
+        (Přidejte si nás na <a href="http://www.facebook.com/<%= TWITTER_NAME %>" target="_blank">Facebooku</a>.)
+      </h6>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+	<div class="row">
+		<div class="jumbotron top20px text-center">
+		<h2>Jak to funguje?</h2>
+		<p class="lead">Napište nám své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
+		</div>
+	</div>
+
+<div class="row text-center">
+       
+          <p><img src="/assets/messages.jpg"></img></p>
+      
+
+      </div>
+
+<div class="row text-center top50px">
+<div class="large-8 columns col-lg-offset-2">
+<h3>K čemu Objednejmi slouží?</h3>
+
+ <div class="row text-center">
+
+<p class="lead">Šetříme Váš čas. Naší asistenti za Vás vyřeší bez námahy situace, které by jste jinak museli řešit sami. Ať už se jedná o to, že potřebujete zajistit rezervaci v restauraci nebo si chcete bez námahy objednat lístky do kina či objednat pobyt v hotelu, jsme tu pro Vás. Za Vás hledáme na internetu ty nejlepší služby, čteme recenze, porovnáváme na srovnávačích cen a známe kulturní programy. S námi se domluvíte jednoduše přes SMS. Takhle můžete mít přístup k jakémukoliv přání kdekoliv a kdykoliv<p/>
+          </div>
+      </div>
+      </div>
+<div class="row text-center top50px">
+<div class="large-8 columns col-lg-offset-2">
+<h3>Jak rychle objednanou službu dostanu?</h3>
+
+ <div class="row text-center">
+
+<p class="lead">Co nejrychleji bude v našich silách<p/>
+          </div>
+      </div>
+      </div>
+<div class="row text-center top50px">
+<div class="large-8 columns col-lg-offset-2">
+<h3>Jak objednávku zaplatím?</h3>
+
+ <div class="row text-center">
+
+<p class="lead">Potom co si vyberete doporučenou službu, vám zašleme odkaz na kterém můžete objednávku zaplatit<p/>
+          </div>
+      </div>
+      </div>
+
+<div class="row text-center top50px">
+<div class="large-8 columns col-lg-offset-2">
+<h3>Kolik služba stojí?</h3>
+
+ <div class="row text-center">
+
+<p class="lead">Služba je pro Vás zcela zdarma<p/>
+          </div>
+      </div>
+      </div>
+
+
+
+<div class="row text-center top50px">
+<div class="large-8 columns col-lg-offset-2">
+<h2>Začněte ještě dnes</h2>
+ <div class="row text-center">
+
+<p class="lead">Napište nám své přání a my vám jej splníme. Zaměstnáváme trénované asistenty, kteří jsou tu pro Vás 24 hodin denně, 7 dní v týdnu. Objednáme za Vás taxi, donášku jídla domů, rezervujeme stůl v restauraci, noc v hotelu nebo koupíme lístky do kina či divadla. Ušetříme Vám spoustu času a vy si tak můžete užívat život plnými doušky.<p/>
+        <%= form_tag '/interested' do %>
+          <div class=""><%= email_field_tag 'email', nil, placeholder: 'Váš e-mail' %></div>
+          <div class="col-md-12"><%= submit_tag 'Přihlásit na čekací listinu', class: 'postfix radius button' %></div>
+          <%= hidden_field_tag :ref, "#{@ref}" %>
+        <% end %>
+
+      </div>
+      </div>
+      </div>
+</div>
+
  
-	    <!--  ********** HEADER SECTION ********** -->
-		<div id="h">
-			<div class="container">
-				<div class="row centered">
-					<h1>Landing Sumo</h1>
-					<h2>MINIMAL LANDING PAGE</h2>
-				</div><!--/row -->
-			</div><!-- /container -->
-		</div><!--/header-->
-
-	    <!--  ********** WHITE SECTION ********** -->
-		<div id="w">
-			<div class="container">
-				<div class="row centered">
-					<div class="col-md-8 col-md-offset-2">
-						<h4>WE CREATED AN AWESOME APP WITH ALL OUR <i class="glyphicon glyphicon-heart"></i></h4>
-						<br/>
-						<i class="glyphicon glyphicon-chevron-down"></i>
-					</div><!--col-md-8 -->
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/w -->
-
-	    <!--  ********** GREEN SECTION ********** -->
-		<div id="g">
-			<div class="container">
-				<div class="row mt">
-					<div class="col-md-6 centered">
-						<img src="assets/img/iPhone-white.png" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-left">
-					</div><!--/col-md-6 -->
-					
-					<div class="col-md-4">
-						<h1 data-effect="slide-right">1</h1>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					</div><!--/col-md-4 -->
-					
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/G -->
-
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>BUY LANDING SUMO NOW</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
-		
-	    <!--  ********** RED SECTION ********** -->
-		<div id="r">
-			<div class="container">
-				<div class="row mt">
-					<div class="col-md-4 col-md-offset-2">
-						<h1 data-effect="slide-left">2</h1>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					</div><!--/col-md-4 -->
-					<div class="col-md-6 centered">
-						<img src="assets/img/iPhone-green.png" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-right">
-					</div><!--/col-md-6 -->
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/R -->
-
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>PRE-ORDER OUR BUNDLE</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
-
-	    <!--  ********** BLUE SECTION ********** -->
-		<div id="b">
-			<div class="container">
-				<div class="row mt">
-					<div class="col-md-6 centered">
-						<img src="assets/img/iPhone-red.png" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-left">
-					</div><!--/col-md-6 -->
-					
-					<div class="col-md-4">
-						<h1 data-effect="slide-right">3</h1>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-					</div><!--/col-md-4 -->
-					
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/B -->
-
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>GRAB NOW OUR AWESOME OFFER</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
-		
-	    <!--  ********** FOOTER SECTION ********** -->		
-		<div id="f">
-			<div class="container">
-				<div class="row centered mtb">
-					<h3>Be The First To Know About Our Launch</h3>
-					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
-						<form role="form" action="register.php" method="post" enctype="plain"> 
-		    				<input type="email" name="email" class="subscribe-input" placeholder="Enter your e-mail address..." required>
-							<button class='btn btn-lg btn-green subscribe-submit' type="submit">Yes, Please</button>
-						</form>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/F -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
-    <script src="/assets/js/retina-1.1.0.js"></script>
-    <script src="/assets/js/jquery.unveilEffects.js"></script>
-
-
-
 
 <% unless alert.blank? %>
   <div class="row">

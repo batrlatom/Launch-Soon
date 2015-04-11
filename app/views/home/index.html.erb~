@@ -9,7 +9,8 @@
 			</div><!-- /container -->
 		</div><!--/header-->
 
-	    <!--  ********** WHITE SECTION ********** -->
+
+	    <!--  ********** WHITE SECTION ********** 
 		<div id="w">
 			<div class="container">
 				<div class="row centered">
@@ -22,11 +23,11 @@
 			</div><!--/container -->
 		</div><!--/w -->
 
-
+-->
 
 
  <!--  ********** WHITE SECTION ********** -->
-		<div id="w">
+		<div id="f">
 <div class="container">
 				<div class="row centered mtb">
 					<h3>Buďte mezi prvními, kteří získají svého vlastního osobního asistenta</h3>

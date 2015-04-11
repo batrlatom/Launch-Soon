@@ -51,16 +51,6 @@
 			</div><!--/container -->
 		</div><!--/G -->
 
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>BUY LANDING SUMO NOW</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
 		
 	    <!--  ********** RED SECTION ********** -->
 		<div id="r">
@@ -76,17 +66,6 @@
 				</div><!--/row -->
 			</div><!--/container -->
 		</div><!--/R -->
-
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>PRE-ORDER OUR BUNDLE</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
 
 	    <!--  ********** BLUE SECTION ********** -->
 		<div id="b">
@@ -105,22 +84,13 @@
 			</div><!--/container -->
 		</div><!--/B -->
 
-	    <!--  ********** CTA SECTION ********** -->		
-		<div id="cta">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 centered">
-						<p>GRAB NOW OUR AWESOME OFFER</p>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/CTA -->
+	 
 		
 	    <!--  ********** FOOTER SECTION ********** -->		
 		<div id="f">
 			<div class="container">
 				<div class="row centered mtb">
-					<h3>Be The First To Know About Our Launch</h3>
+					<h3>Přihlaste se na čekací listinu ještě dnes</h3>
 					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
 
 
@@ -181,7 +151,25 @@
 		</div><!--/w -->
 
 
+    <!--  ********** FOOTER SECTION ********** -->		
+		<div id="f">
+			<div class="container">
+				<div class="row centered mtb">
+					<h3>Přihlaste se na čekací listinu ještě dnes</h3>
+					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
 
+
+
+
+ <%= form_tag '/interested' do %>
+		    				<%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail', class: 'subscribe-input' %>
+							<%= submit_tag 'Přihlásit na čekací listinu', class: 'btn btn-lg btn-green subscribe-submit' %>
+          <%= hidden_field_tag :ref, "#{@ref}" %>
+        <% end %>
+					</div>
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/F -->
 
 
 

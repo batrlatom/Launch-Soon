@@ -22,6 +22,30 @@
 			</div><!--/container -->
 		</div><!--/w -->
 
+
+
+
+ <!--  ********** WHITE SECTION ********** -->
+		<div id="w">
+<div class="container">
+				<div class="row centered mtb">
+					<h3>Buďte mezi prvními, kteří získají svého vlastního osobního asistenta</h3>
+					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
+
+
+
+
+ <%= form_tag '/interested' do %>
+		    				<%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail', class: 'subscribe-input' %>
+							<%= submit_tag 'Ano, prosím', class: 'btn btn-lg btn-green subscribe-submit' %>
+          <%= hidden_field_tag :ref, "#{@ref}" %>
+        <% end %>
+					</div>
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/w -->
+
+
 	    <!--  ********** GREEN SECTION ********** -->
 		<div id="g">
 			<div class="container">

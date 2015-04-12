@@ -9,11 +9,14 @@
         <div class="small-12 columns">
          
         <h6>
-            Neustále z listiny vybíráme nové zákazníky, kteří získají své osobní asistenty. Čím více přátel pozvete, tím rychleji získáte přístup!<br>Pošlete tento odkaz svým přátelům a nebo použijte tlačítka pro sdílení.
-
- <h3 style="text-align:center;">Pozvali jste již <strong><%= @rcount %></strong> přátel.</h3>
+            Neustále z listiny vybíráme nové zákazníky, kteří získají své osobní asistenty. Čím více přátel pozvete, tím rychleji získáte přístup!
 
           </h6>
+
+ <h3 style="text-align:center;">Pozvali jste již <strong><%= @rcount %></strong> přátel.</h3>
+<p>Pošlete tento odkaz svým přátelům a nebo použijte tlačítka pro sdílení.</p>
+
+
           <p><input type="text" readonly onClick="select()" value="http://<%= SITE_DOMAIN %>/?ref=<%= @rcode %>"></p>
 
           <p style="text-align:center;">

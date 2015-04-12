@@ -5,7 +5,7 @@ MAILCHIMP_API_KEY = 'cb22e91836b8f1ba8ed61122d52de893-us9'
 MAILCHIMP_LIST_ID = 'e57b2b3d03'
 
 # This site's domain name, including the www. if required (ie: google.com):
-SITE_DOMAIN = 'www.zuky.cz'
+SITE_DOMAIN = 'www.chcited.cz'
 
 # Title tag for the site:
 SITE_TITLE = 'CHCI'

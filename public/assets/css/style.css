@@ -126,6 +126,7 @@ input {
 	width: 70%;
 	text-align: left;
 	margin-right: 2px;
+	border: 1px solid black;
 }
 
 .subscribe-submit {
@@ -188,6 +189,12 @@ input {
 	color: #f2f2f2;
 	font-size: 16px;
 }
+
+#cta h2 {
+	color: #ffffff;
+	font-size: 32px;
+}
+
 
 /* White Section */
 #w {

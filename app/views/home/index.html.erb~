@@ -30,7 +30,7 @@
 		<div id="cta">
 <div class="container">
 				<div class="row centered mtb">
-					<h3>Jak to funguje?</h3>
+					<h2>Jak to funguje?</h2>
 
 				</div><!--/row -->
 			</div><!--/container -->
@@ -185,7 +185,7 @@
     <script src="assets/js/jquery.unveilEffects.js"></script>
 
 
-<script src="assets/typed-min.js"></script>
+<script src="assets/js/typed.min.js"></script>
 <script>
   $(function(){
       $(".element").typed({

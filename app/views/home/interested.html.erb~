@@ -1,7 +1,7 @@
 <header class="header">
 <div class="row">
-  <div class="large-8 small-12 columns large-centered">
-    <div class="panel radius top50px">
+  <div class="large-8 small-12 columns large-centered  top150px">
+    <div class="panel radius">
       <h1 style="text-align:center;"><%= SITE_TITLE %></h1>
       <h4 class="subheader" ><%= raw SITE_BLURB %></h4>
 

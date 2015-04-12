@@ -15,8 +15,8 @@
 
 
  <%= form_tag '/interested' do %>
-		    				<%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail', class: 'subscribe-input' %>
-							<%= submit_tag 'CHCI', class: 'btn btn-lg btn-green subscribe-submit' %>
+		    				<%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail a začněte ...', class: 'subscribe-input' %>
+							<%= submit_tag 'Ano, chci', class: 'btn btn-lg btn-green subscribe-submit' %>
           <%= hidden_field_tag :ref, "#{@ref}" %>
         <% end %>
 					</div>

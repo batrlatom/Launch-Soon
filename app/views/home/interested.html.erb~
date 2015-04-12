@@ -30,7 +30,7 @@
 
   <p>
 
-   (Přidejte si nás na <a href="http://www.facebook.com/<%= TWITTER_NAME %>" target="_blank">Facebooku</a>.)
+   (Přidejte si nás na <a href="http://www.facebook.com/<%= FB_NAME %>" target="_blank">Facebooku</a>.)
    </p>
 					</div>
 	
@@ -39,7 +39,17 @@
 		</div><!--/header-->
 
 
+ <!--  ********** FOOTER SECTION ********** -->		
+		<div id="f">
+			<div class="container">
+				<div class="row centered mtb">
 
+
+
+
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/F -->
  <!--  ********** FOOTER SECTION ********** -->		
 		<div id="f">
 			<div class="container">

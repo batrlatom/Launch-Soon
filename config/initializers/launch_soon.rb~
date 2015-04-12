@@ -23,4 +23,4 @@ SITE_BLURB = 'Napište nám Vaše přání, splníme jej na počkání'
 SITE_GOOGLE_ANALYTICS = 'UA-61775202-1'
 
 # Twitter name for site:
-TWITTER_NAME = 'CHCI'
+TWITTER_NAME = 'pages/CHCI/1584005915189424'

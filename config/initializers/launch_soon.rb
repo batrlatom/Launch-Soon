@@ -22,5 +22,7 @@ SITE_BLURB = 'Napište nám Vaše přání, splníme jej na počkání'
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-61775202-1'
 
-# Twitter name for site:
-TWITTER_NAME = 'pages/CHCI/1584005915189424'
+# FB and Twitter name for site:
+FB_NAME = 'pages/CHCI/1584005915189424'
+
+TWITTER_NAME = 'ChciTed'

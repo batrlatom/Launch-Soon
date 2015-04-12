@@ -5,20 +5,8 @@
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
 					<h2><%= raw SITE_BLURB %></h2>
-				</div><!--/row -->
-			</div><!-- /container -->
-		</div><!--/header-->
-
-
-
-
-
- <!--  ********** WHITE SECTION ********** -->
-		<div id="f">
-<div class="container">
-				<div class="row centered mtb">
-					<h3>Buďte mezi prvními, kteří získají svého vlastního osobního asistenta</h3>
-					<div class="col-md-6 col-md-offset-3 mt">
+<div class="element"></div>
+				<div class="col-md-6 col-md-offset-3 mt">
 
 
 
@@ -29,6 +17,21 @@
           <%= hidden_field_tag :ref, "#{@ref}" %>
         <% end %>
 					</div>
+	
+				</div><!--/row -->
+			</div><!-- /container -->
+		</div><!--/header-->
+
+
+
+
+
+ <!--  ********** WHITE SECTION ********** -->
+		<div id="cta">
+<div class="container">
+				<div class="row centered mtb">
+					<h3>Jak to funguje?</h3>
+
 				</div><!--/row -->
 			</div><!--/container -->
 		</div><!--/w -->
@@ -180,3 +183,17 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/retina-1.1.0.js"></script>
     <script src="assets/js/jquery.unveilEffects.js"></script>
+
+
+<script src="assets/js/typed.min.js"></script>
+<script>
+  $(function(){
+      $(".element").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+
+
+

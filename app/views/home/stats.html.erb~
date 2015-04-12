@@ -2,13 +2,12 @@
 		<div id="h">
 			<div class="container">
 				<div class="row centered">
-					<h1>Děkujeme za Váš zájem o <%= SITE_TITLE %></h1>
-					<h2> Zapsali jsme Vás na čekací listinu</h2>
-					<h2>      
-            Neustále z listiny vybíráme nové zákazníky, kteří získají své osobní asistenty. Čím více přátel pozvete, tím rychleji získáte přístup!
 
-          </h2>
-<h3>Pozvali jste již <strong><%= @rcount %></strong> přátel.</h3>
+					<h1>Jste ve frontě</h1>
+
+					
+         
+<h2>Pozvali jste již <strong><%= @rcount %></strong> přátel.</h2>
 <p>Pošlete tento odkaz svým přátelům a nebo použijte tlačítka pro sdílení.</p>
 
 
@@ -18,17 +17,17 @@
 
             <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F<%= "#{SITE_DOMAIN}%2F?ref=#{@referral_code}" %>&amp;send=false&amp;layout=box_count&amp;width=100&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=62&amp;appId=156645257810711" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:62px;" allowTransparency="true"></iframe>
   &nbsp;
-            <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-url="http://<%= "#{SITE_DOMAIN}/?ref=#{@referral_code}" %>" data-text="I'm in line for @<%= TWITTER_NAME %> <%= SITE_DESCRIPTION %>" data-via="<%= TWITTER_NAME %>" data-size="small" data-dnt="true">Tweet</a>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-count="vertical" data-url="http://<%= "#{SITE_DOMAIN}/?ref=#{@referral_code}" %>" data-text="Zkuste @<%= TWITTER_NAME %> <%= SITE_DESCRIPTION %>" data-via="<%= TWITTER_NAME %>" data-size="small" data-dnt="true">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           
           </p>
 
 
-				<div class="col-md-6 col-md-offset-3 mt">
+			
 
   <p>
 
-   (Přidejte si nás na <a href="http://www.facebook.com/<%= TWITTER_NAME %>" target="_blank">Facebooku</a>.)
+   (Přidejte si nás na <a href="http://www.facebook.com/<%= FB_NAME %>" target="_blank">Facebooku</a>.)
    </p>
 					</div>
 	

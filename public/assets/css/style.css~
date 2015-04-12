@@ -190,6 +190,12 @@ input {
 	font-size: 16px;
 }
 
+#cta h2 {
+	color: #ffffff;
+	font-size: 32px;
+}
+
+
 /* White Section */
 #w {
 	padding-bottom: 50px;

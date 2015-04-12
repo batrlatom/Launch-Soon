@@ -129,6 +129,17 @@ input {
 	border: 1px solid black;
 }
 
+
+.sharelink-input {
+	float: left;
+	width: 70%;
+	text-align: left;
+	margin-right: 2px;
+	border: 1px solid black;
+}
+
+
+
 .subscribe-submit {
 	right: 0;
 }

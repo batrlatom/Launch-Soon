@@ -2,7 +2,9 @@
 		<div id="h">
 			<div class="container">
 				<div class="row centered">
-					<h1>Jste ve frontě</h1>
+					 <input type="text" id="user-caption" style="display: none;" value="Jste ve frontě" />
+					<h1><span id="caption"></span><span id="cursor">|</span></h1>
+
 
 					<hp>      
             Neustále z listiny vybíráme nové zákazníky, kteří získají své osobní asistenty. Čím více přátel pozvete, tím rychleji získáte přístup!
@@ -49,4 +51,72 @@
 				</div><!--/row -->
 			</div><!--/container -->
 		</div><!--/F -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/retina-1.1.0.js"></script>
+    <script src="assets/js/jquery.unveilEffects.js"></script>
+
+
+<script src="assets/js/typed.min.js"></script>
+<script>
+ var captionLength = 0;
+var caption = '';
+
+
+$(document).ready(function() {
+    setInterval ('cursorAnimation()', 1200);
+    captionEl = $('#caption');
+    testTypingEffect(); 
+
+   
+});
+
+function testTypingEffect() {
+    caption = $('input#user-caption').val();
+    type();
+}
+
+function type() {
+    captionEl.html(caption.substr(0, captionLength++));
+    if(captionLength < caption.length+1) {
+        setTimeout('type()', 150);
+    } else {
+        captionLength = 0;
+        caption = '';
+    }
+}
+
+function testErasingEffect() {
+    caption = captionEl.html();
+    captionLength = caption.length;
+    if (captionLength>0) {
+        erase();
+    } else {
+        $('#caption').html("You didn't write anything to erase, but that's ok!");
+        setTimeout('testErasingEffect()', 1000);
+    }
+}
+
+function erase() {
+    captionEl.html(caption.substr(0, captionLength--));
+    if(captionLength >= 0) {
+        setTimeout('erase()', 50);
+    } else {
+        captionLength = 0;
+        caption = '';
+    }	
+}
+
+function cursorAnimation() {
+    $('#cursor').animate({
+        opacity: 0
+    }, 'fast', 'swing').animate({
+        opacity: 1
+    }, 'fast', 'swing');
+}
+</script>
 

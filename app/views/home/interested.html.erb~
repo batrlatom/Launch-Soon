@@ -38,4 +38,15 @@
 
 
 
+ <!--  ********** FOOTER SECTION ********** -->		
+		<div id="f">
+			<div class="container">
+				<div class="row centered mtb">
+
+
+
+
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/F -->
 

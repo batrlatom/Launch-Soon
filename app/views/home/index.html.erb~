@@ -4,8 +4,8 @@
 			<div class="container">
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
-					 <input type="text" id="user-caption" style="display: none;" value="Type something here!" />
-					<h2 id="caption"><%= raw SITE_BLURB %><span id="cursor">|</span></h2>
+					 <input type="text" id="user-caption" style="display: none;" value="<%= raw SITE_BLURB %>" />
+					<h2><span id="caption"></span><span id="cursor">|</span></h2>
 
 
 
@@ -195,7 +195,7 @@ var caption = '';
 
 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 600);
+    setInterval ('cursorAnimation()', 1200);
     captionEl = $('#caption');
     testTypingEffect(); 
 
@@ -210,7 +210,7 @@ function testTypingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 50);
+        setTimeout('type()', 150);
     } else {
         captionLength = 0;
         caption = '';

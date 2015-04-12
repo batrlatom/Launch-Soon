@@ -113,6 +113,21 @@
 		</div><!--/F -->
 
 	<div id="w">
+
+
+<!--  ********** FAQ Header ********** -->
+		<div id="cta">
+<div class="container">
+				<div class="row centered mtb">
+					<h2>Odpovědi na nejčastější dotazy</h2>
+
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/w -->
+
+
+
+
 			<div class="container">
 				<div class="row centered">
 					<div class="col-md-8 col-md-offset-2">
@@ -195,7 +210,7 @@ var caption = '';
 
 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 600);
+    setInterval ('cursorAnimation()', 1200);
     captionEl = $('#caption');
     testTypingEffect(); 
 
@@ -210,7 +225,7 @@ function testTypingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 50);
+        setTimeout('type()', 150);
     } else {
         captionLength = 0;
         caption = '';

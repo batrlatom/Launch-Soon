@@ -91,13 +91,27 @@
 		</div><!--/B -->
 
 	 
+
+
+
+	<div id="cta">
+			<div class="container">
+				<div class="row centered">
+					<div class="col-md-8 col-md-offset-2">
+						<h2>Libi se Vám to? Dejte nám like</h2>
+						<p  >  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F<%= "#{SITE_DOMAIN}%2F?ref=#{@referral_code}" %>&amp;send=false&amp;layout=box_count&amp;width=100&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=62&amp;appId=156645257810711" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:62px;" allowTransparency="true"></iframe>
+  <p/>
+					</div><!--col-md-8 -->
+				</div><!--/row -->
+			</div><!--/container -->
+		</div><!--/cta -->
 		
 	    <!--  ********** FOOTER SECTION ********** -->		
 		<div id="f">
 			<div class="container">
 				<div class="row centered mtb">
 					<h3>Přihlaste se na čekací listinu ještě dnes</h3>
-					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
+					<div class="col-md-6 col-md-offset-3 mt" >
 
 
 

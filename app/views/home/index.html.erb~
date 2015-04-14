@@ -45,7 +45,9 @@
 			<div class="container">
 				<div class="row mt">
 					<div class="col-md-6 centered">
-						<img src="assets/img/iPhone-white.png" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-left">
+
+
+						<a href="#" data-featherlight="#mylightbox"><img src="assets/img/iPhone-white.png" id="mylightbox" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-left"></a>
 					</div><!--/col-md-6 -->
 					
 					<div class="col-md-4" data-effect="slide-right">
@@ -172,8 +174,7 @@
 						<h2>Kolik služba stojí?</h2>
 						<p  >CHCI je pro Vás zcela zdarma<p/>
 
-<a href="#" data-featherlight="#mylightbox">Open element in lightbox</a>
-<div id="mylightbox">This div will be opened in a lightbox</div>
+
 					</div><!--col-md-8 -->
 				</div><!--/row -->
 			</div><!--/container -->

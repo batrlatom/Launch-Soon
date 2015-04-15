@@ -29,17 +29,17 @@
 		</div><!--/header-->
 
 
-   <!--  ********** GREEN SECTION ********** -->
+   <!--  ********** white SECTION ********** -->
 		<div id="w">
 			<div class="container">
 				<div class="row mt">
-					<div class="col-md-6 centered">
+					<div class="col-md-6 col-md-offset-4 centered">
 
 <div class="fb-like" data-href="https://www.facebook.com/pages/CHCI/1584005915189424" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 					
 				</div><!--/row -->
 			</div><!--/container -->
-		</div><!--/G -->
+		</div><!--/w -->
 
 
 

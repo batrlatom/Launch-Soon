@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
-					 <input type="text" id="user-caption" style="display: none;" value="Chcete objednat pizzu, taxi nebo zarezervovat stůl? Napište sms na" />
+					 <input type="text" id="user-caption" style="display: none;" value="Objednat pizzu, taxi nebo zarezervovat stůl? Napíšu sms na" />
 					<h2><span id="caption"></span><span id="cursor">|</span></h2>
 <h3><%= TEL_NUMBER %></h3>
 
@@ -44,7 +44,7 @@
 					
 					<div class="col-md-4" data-effect="slide-right">
 						<h2>Potřebujete něco zařídit?</h2>
-						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<%= TEL_NUMBER %>"<%= TEL_NUMBER %>.</p>
+						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<%= TEL_NUMBER %>"><%= TEL_NUMBER %></a>.</p>
 					</div><!--/col-md-4 -->
 					
 				</div><!--/row -->
@@ -144,7 +144,7 @@
 		<div id="f">
 			<div class="container">
 				<div class="row centered mtb">
-					<h3>Napište nám <%= TEL_NUMBER %>na nebo si nechte zaslat kontakt emailem</h3>
+					<h3>Napište nám na <%= TEL_NUMBER %> nebo si nechte zaslat kontakt emailem</h3>
 					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
 
 

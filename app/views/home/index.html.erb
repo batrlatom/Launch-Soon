@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
-					 <input type="text" id="user-caption" style="display: none;" value="Chcete objednat pizzu, taxi nebo zarezervovat stůl? Napište sms na" />
+					 <input type="text" id="user-caption" style="display: none;" value="Objednat pizzu, taxi nebo zarezervovat stůl? Napíšu sms na" />
 					<h2><span id="caption"></span><span id="cursor">|</span></h2>
 <h3><%= TEL_NUMBER %></h3>
 
@@ -144,7 +144,7 @@
 		<div id="f">
 			<div class="container">
 				<div class="row centered mtb">
-					<h3>Napište nám <%= TEL_NUMBER %>na nebo si nechte zaslat kontakt emailem</h3>
+					<h3>Napište nám na <%= TEL_NUMBER %> nebo si nechte zaslat kontakt emailem</h3>
 					<div class="col-md-6 col-md-offset-3 mt" data-effect="slide-bottom">
 
 
@@ -178,7 +178,7 @@ var caption = '';
 
 
 $(document).ready(function() {
-    setInterval ('cursorAnimation()', 1200);
+    setInterval ('cursorAnimation()', 800);
     captionEl = $('#caption');
     testTypingEffect(); 
 
@@ -193,7 +193,7 @@ function testTypingEffect() {
 function type() {
     captionEl.html(caption.substr(0, captionLength++));
     if(captionLength < caption.length+1) {
-        setTimeout('type()', 100);
+        setTimeout('type()', 80);
     } else {
         captionLength = 0;
         caption = '';

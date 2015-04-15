@@ -4,9 +4,9 @@
 			<div class="container">
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
-					 <input type="text" id="user-caption" style="display: none;" value="<%= raw SITE_BLURB %>" />
+					 <input type="text" id="user-caption" style="display: none;" value="Chcete objednat pizzu, taxi nebo zarezervovat stůl? Napište sms na" />
 					<h2><span id="caption"></span><span id="cursor">|</span></h2>
-<h2>Chcete sehnat lístky do kina, objednat pizzu nebo zarezervovat stůl pro dva? Napište sms na</h2>
+<h2>Chcete objednat pizzu, taxi nebo zarezervovat stůl? Napište sms na</h2><h3><%= TEL_NUMBER %></h3>
 
 
 				<div class="col-md-6 col-md-offset-3 mt">
@@ -21,7 +21,7 @@
         <% end %>
 -->
 
-<h3><%= TEL_NUMBER %></h3>
+
 					</div>
 	
 				</div><!--/row -->
@@ -30,17 +30,6 @@
 
 
 
-
-
- <!--  ********** WHITE SECTION ********** -->
-		<div id="cta">
-<div class="container">
-				<div class="row centered mtb">
-					<h2>Jak to funguje?</h2>
-
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/w -->
 
 
 	    <!--  ********** GREEN SECTION ********** -->
@@ -55,7 +44,7 @@
 					
 					<div class="col-md-4" data-effect="slide-right">
 						<h1>Potřebujete něco zařídit?</h1>
-						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<% TEL_NUMBER %>"<% TEL_NUMBER %>.</p>
+						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<%= TEL_NUMBER %>"<%= TEL_NUMBER %>.</p>
 					</div><!--/col-md-4 -->
 					
 				</div><!--/row -->
@@ -68,7 +57,7 @@
 			<div class="container">
 				<div class="row mt">
 					<div class="col-md-4 col-md-offset-2" data-effect="slide-left">
-						<h1>2</h1>
+						<h2>2</h2>
 						<p>Objednáme vám pizzu, seženeme taxi nebo lístky do kina. Zařídíme hlídání dětí a doručíme květiny vaší drahé polovičce. Zarezervujeme stůl v restauraci, objednáme nákup, seženeme kadeřníka, instalatéra i malíře pokojů. Víme, kam zajít na koncert a kde skvěle vaří. Zařídíme, vyřešíme, najdeme a nakoupíme cokoli, zatímco vy se můžete věnovat příjemnějším záležitostem. Naši zkušení operátoři jsou připraveni vám splnit jakékoli přání – na počkání</p>
 					</div><!--/col-md-4 -->
 					<div class="col-md-6 centered">
@@ -96,40 +85,6 @@
 		</div><!--/B -->
 
 	 
-
-
-
-	<div id="cta">
-			<div class="container">
-				<div class="row centered">
-					<div class="col-md-8 col-md-offset-2">
-						<h2>Líbí se Vám to? Dejte nám like</h2>
-						<p  >  <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F<%= "#{SITE_DOMAIN}%2F?ref=#{@referral_code}" %>&amp;send=false&amp;layout=box_count&amp;width=100&amp;show_faces=false&amp;action=recommend&amp;colorscheme=light&amp;font&amp;height=62&amp;appId=156645257810711" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:62px;" allowTransparency="true"></iframe>
-  <p/>
-					</div><!--col-md-8 -->
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/cta -->
-		
-	    <!--  ********** FOOTER SECTION ********** -->		
-		<div id="f">
-			<div class="container">
-				<div class="row centered mtb">
-					<h3>Nechte si zaslat kontakt emailem</h3>
-					<div class="col-md-6 col-md-offset-3 mt" >
-
-
-
-
- <%= form_tag '/interested' do %>
-		    				<%= email_field_tag 'email', nil, placeholder: 'Napište prosím Váš e-mail', class: 'subscribe-input' %>
-							<%= submit_tag 'Ano, chci', class: 'btn btn-lg btn-green subscribe-submit' %>
-          <%= hidden_field_tag :ref, "#{@ref}" %>
-        <% end %>
-					</div>
-				</div><!--/row -->
-			</div><!--/container -->
-		</div><!--/F -->
 
 	<div id="w">
 
@@ -163,8 +118,9 @@
 			<div class="container">
 				<div class="row centered">
 					<div class="col-md-8 col-md-offset-2">
-						<h2>Jak objednávku zaplatím?</h2>
-						<p  >Potom co si vyberete doporučenou službu, vám zašleme odkaz na kterém můžete objednávku zaplatit<p/>
+						<h2>Kolik mě to bude stát?</h2>
+						<p  >Služba CHCI je pro vás zcela zdarma.
+<p/>
 					</div><!--col-md-8 -->
 				</div><!--/row -->
 			</div><!--/container -->
@@ -174,8 +130,8 @@
 			<div class="container">
 				<div class="row centered">
 					<div class="col-md-8 col-md-offset-2">
-						<h2>Kolik služba stojí?</h2>
-						<p  >CHCI je pro Vás zcela zdarma<p/>
+						<h2>Jak objednávku zaplatím?</h2>
+						<p>Po potvrzení objednávky obdržíte v SMS odkaz na zabezpečenou platební bránu, kde provedete platbu. Bez nutnosti registrace, rychle a bezpečně. Údaje o vaší kartě nikde nevidíme a nikam neukládáme.<p/>
 
 
 					</div><!--col-md-8 -->

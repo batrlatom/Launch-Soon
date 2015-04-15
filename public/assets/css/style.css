@@ -98,12 +98,12 @@ a {
 	-o-transition: background-color .4s linear, color .4s linear;
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
-	color: #1abc9c;
+	color: #ffffff;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color:#696E74;
+  color:#ffffff;
 }
 
 /* FORM CONFIGURATION */

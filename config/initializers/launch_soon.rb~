@@ -17,7 +17,7 @@ SITE_KEYWORDS = 'key, words'
 SITE_DESCRIPTION = 'Váš vlastní osobní SMS asistent'
 
 # Blurb about site, displayed on main page:
-SITE_BLURB = 'Napište nám Vaše přání, splníme jej na počkání'
+SITE_BLURB = 'Napište nám své přání, splníme jej na počkání'
 
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-61775202-1'

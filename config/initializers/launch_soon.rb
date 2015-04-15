@@ -17,7 +17,7 @@ SITE_KEYWORDS = 'key, words'
 SITE_DESCRIPTION = 'Váš vlastní osobní SMS asistent'
 
 # Blurb about site, displayed on main page:
-SITE_BLURB = 'Napište smskou Vaše přání, splníme jej na počkání'
+SITE_BLURB = 'Napište nám své přání, splníme jej na počkání'
 
 # Google Analytics code for the site:
 SITE_GOOGLE_ANALYTICS = 'UA-61775202-1'
@@ -27,7 +27,7 @@ FB_NAME = 'pages/CHCI/1584005915189424'
 
 TWITTER_NAME = 'ChciTed'
 
-TEL_NUMBER = '778 828 828'
+TEL_NUMBER = '736 537 681'
 
 
 

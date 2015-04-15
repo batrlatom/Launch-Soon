@@ -39,10 +39,10 @@
 					<div class="col-md-6 centered">
 
 
-						<a href="#" data-featherlight="assets/img/iPhone-white.png"><img src="assets/img/iPhone-white.png" id="mylightbox" class="img-responsive aligncenter" width="320" alt="" data-effect="slide-left"></a>
+						<a href="#" data-featherlight="assets/img/iPhone-white.png"><img src="assets/img/iPhone-white.png" id="mylightbox" class="img-responsive aligncenter" width="320" alt="" ></a>
 					</div><!--/col-md-6 -->
 					
-					<div class="col-md-4" data-effect="slide-right">
+					<div class="col-md-4">
 						<h2>Potřebujete něco zařídit?</h2>
 						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<%= TEL_NUMBER %>"><%= TEL_NUMBER %></a>.</p>
 					</div><!--/col-md-4 -->

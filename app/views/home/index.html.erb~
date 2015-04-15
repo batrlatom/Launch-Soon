@@ -7,7 +7,10 @@
 					 <input type="text" id="user-caption" style="display: none;" value="pizzu, taxi, rezervovat stůl? Napíšu na" />
 					<h2><span id="caption"></span><span id="cursor">|</span></h2>
 <h3><%= TEL_NUMBER %></h3>
+
+<!--
 <p><img src="http://api.qrserver.com/v1/create-qr-code/?color=FFFFFF&amp;bgcolor=000000&amp;data=736537681&amp;qzone=1&amp;margin=0&amp;size=100x100&amp;ecc=L" alt="qr code"></p>
+-->
 
 
 				<div class="col-md-6 col-md-offset-3 mt">

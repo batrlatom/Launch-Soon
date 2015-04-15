@@ -10,7 +10,7 @@
 
 
 				<div class="col-md-6 col-md-offset-3 mt">
-
+<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 <!--
 
 
@@ -43,7 +43,7 @@
 					</div><!--/col-md-6 -->
 					
 					<div class="col-md-4">
-						<h2>Potřebujete něco zařídit?</h2>
+						<h2>Chcete něco?</h2>
 						<p>S námi to vše zvládnete bez starostí a dlouhého hledání. Jsme váš osobní asistent, kamarád na telefonu a přítel, který je vždy online. 24 hodin denně, 7 dnů v týdnu. Stačí jen napsat SMS na naše číslo <a href="sms://<%= TEL_NUMBER %>"><%= TEL_NUMBER %></a>.</p>
 					</div><!--/col-md-4 -->
 					

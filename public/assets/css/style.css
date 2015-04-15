@@ -215,7 +215,7 @@ input {
 /* White Section */
 #w {
 	padding-bottom: 50px;
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 	color: #bfbfbf
 }
 
@@ -298,4 +298,8 @@ input {
 
 #f h3 {
 	color: white;
+}
+
+.fb-like {
+	margin-bottom: 40px;
 }

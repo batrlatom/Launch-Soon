@@ -21,7 +21,7 @@
         <% end %>
 -->
 
-<h1><%= TEL_NUMBER %></h1>
+<h3><%= TEL_NUMBER %></h3>
 					</div>
 	
 				</div><!--/row -->

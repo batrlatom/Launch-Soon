@@ -11,13 +11,11 @@
 	1. GENERAL STRUCTURES
 ################################################################# */
 
-/* Import fonts */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,500,700,900);
 
 * { 
 	margin: 0;
 	padding: 0px;
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
 } 
 body { 
 	background: #fff; 

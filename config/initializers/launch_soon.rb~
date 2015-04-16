@@ -8,7 +8,7 @@ MAILCHIMP_LIST_ID = 'e57b2b3d03'
 SITE_DOMAIN = 'www.chcited.cz'
 
 # Title tag for the site:
-SITE_TITLE = 'CHCI'
+SITE_TITLE = 'Chci'
 
 # Keywords for the site:
 SITE_KEYWORDS = 'key, words'

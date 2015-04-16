@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="row centered">
 					<h1><%= SITE_TITLE %></h1>
-					 <input type="text" id="user-caption" style="display: none;" value="pizzu, taxi, rezervovat stůl? Napíšu na" />
+					 <input type="text" id="user-caption" style="display: none;" value="pizzu, taxi, stůl v restauraci? Napíšu sms na" />
 					<h2><span id="caption"></span><span id="cursor">|</span></h2>
 <h3><%= TEL_NUMBER %></h3>
 

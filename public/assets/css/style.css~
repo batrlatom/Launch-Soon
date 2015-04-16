@@ -179,7 +179,7 @@ input {
 #h h1 {
 	font-weight: 900;
 	color: #03C9A9;
-	font-size: 30px;
+	font-size: 90px;
 }
 
 #h h2 {
@@ -198,7 +198,7 @@ input {
 	font-weight: 900;
 	color: #03C9A9;
 	font-size: 72px;
-font-family: 'Bilbo Swash Caps', cursive;
+
 
 	
 }

@@ -194,6 +194,20 @@ font-family: 'Bilbo Swash Caps', cursive;
 	font-size: 90px;
 }
 
+
+#h a {
+	font-weight: 900;
+	color: #03C9A9;
+	font-size: 72px;
+font-family: 'Bilbo Swash Caps', cursive;
+
+	
+}
+
+
+
+
+
 /* CALL TO ACTION SECTION */
 
 #cta {

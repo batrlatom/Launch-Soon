@@ -159,11 +159,11 @@ input {
 #h {
 	/*background: url(../img/header.jpg) no-repeat center top;*/
 
-	padding-top: 90px;
+	padding-top: 20px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	/*min-height: 700px;*/
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -186,6 +186,7 @@ font-family: 'Bilbo Swash Caps', cursive;
 
 #h h2 {
 	color: #1BA39C;
+font-size: 26px;
 }
 
 
